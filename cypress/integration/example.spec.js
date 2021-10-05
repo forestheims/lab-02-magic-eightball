@@ -4,9 +4,10 @@ describe('Example Test', ()=>{
         cy.visit('/');
     });
 
-    describe('HTML elements', ()=>{   
-        it('contains the alchemy logo', ()=>{
-            cy.get('.main-logo').should('be.visible');
+    describe('user interactions', ()=>{   
+        it('message is displayed after button is clicked', ()=>{
+            cy.get('#button').click();
+            cy.get('#message').should('be.visible');
         });
     });
 });
