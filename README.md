@@ -1,6 +1,22 @@
-# Alchemy Bootstrap Template
+# Magic Eightball Lab
 
-## Making a plan
+### HTML Elements that are needed
+* Title -- static
+* Text -- static
+* Button -- static
+* Message -- dynamic
+
+### States that need to be initialized
+* answer state
+* random index number
+
+### Events to listen for. And, Response to events
+* Button 'click'
+  * Generate random index number
+  * Get the value of the message at the index value
+  * Display that message
+  
+<!-- ## Making a plan
 
 (bolded steps are mandatory, unbolded are for more advanced projects)
 
@@ -22,4 +38,4 @@
 * `npm test`
 * Cypress will open -- you should then click "run <#> integration spec(s)"
     ![](cypress.png)
-* Make sure all tests pass
+* Make sure all tests pass -->
