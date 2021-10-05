@@ -25,10 +25,8 @@ p {
 }
 
 #button {
-    height: 60vw;
-    width: 60vw;
-    max-height: 500px;
-    max-width: 500px;
+    height: 400px;
+    width: 400px;
     border: black solid 10px;
     border-radius: 50%;
     font-size: 2em;
