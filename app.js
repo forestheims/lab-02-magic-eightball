@@ -3,6 +3,7 @@ import { answers } from './answers.js';
 // const question = document.getElementById('question');
 const button = document.getElementById('button');
 const message = document.getElementById('message');
+const messageBackground = document.getElementById('message-background');
 
 // initialize global state
 const rndNum = (num) => {
@@ -13,7 +14,7 @@ const rndNum = (num) => {
 button.addEventListener('click', ()=> {
     const answersIndex = rndNum(answers.length);
     message.textContent = answers[answersIndex];
-    message.style.display = 'inline';
+    messageBackground.style.display = 'block';
 });
   // get user input
   // use user input to update state 

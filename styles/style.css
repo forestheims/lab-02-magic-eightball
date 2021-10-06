@@ -17,22 +17,19 @@ p {
 #message {
     font-size: 1.5em;
     font-weight: 600;
-    background-color: darkcyan;
     padding: 20px;
     margin: 40px;
     border-radius: 20px;
-    display: none;
+    color: lime;
 }
 
 #button {
-    height: 400px;
-    width: 400px;
-    border: black solid 10px;
-    border-radius: 50%;
+    height: 360px;
+    width: 360px;    border-radius: 50%;
     font-size: 2em;
     font-weight: 800;
-    color: white;
-    background-color: black;
+    background-image: url("../assets/eightball.jpeg");
+    background-position: 45.5% 52%;
     margin: 30px;
 }
 
@@ -43,4 +40,13 @@ button:hover {
 #question {
     width: 400px;
     height: 80px;
+}
+
+#message-background {
+    background-image: url("../assets/poolstick.png");
+    background-position: 50% 48%;
+    background-size: cover;
+    width: 90vw;
+    margin: 20px;
+    display: none;
 }

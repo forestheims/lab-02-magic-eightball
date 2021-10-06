@@ -5,9 +5,9 @@ describe('Example Test', ()=>{
     });
 
     describe('user interactions', ()=>{   
-        it('message is displayed after button is clicked', ()=>{
+        it('div containing message is displayed after button is clicked', ()=>{
             cy.get('#button').click();
-            cy.get('#message').should('be.visible');
+            cy.get('#message-background').should('be.visible');
         });
     });
 });
