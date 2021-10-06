@@ -11,6 +11,6 @@ export const answers = [
     '... crickets...',
     'I\'m not a genie',
     'Ask the nearest cat',
-    'Relax. It\s just an app',
+    'Relax. It\'s just an app',
     'Good question. Keep reflecting on that one.'
 ];
