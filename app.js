@@ -6,13 +6,13 @@ const message = document.getElementById('message');
 const messageBackground = document.getElementById('message-background');
 
 // initialize global state
-const rndNum = (num) => {
+const getRandomNumber = (num) => {
     return Math.floor(Math.random() * num);
 };
 
 // set event listeners 
 button.addEventListener('click', ()=> {
-    const answersIndex = rndNum(answers.length);
+    const answersIndex = getRandomNumber(answers.length);
     message.textContent = answers[answersIndex];
     messageBackground.style.display = 'block';
 });
