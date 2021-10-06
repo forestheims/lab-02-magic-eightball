@@ -24,7 +24,7 @@ p {
 }
 
 #button {
-    height: 360px;
+    min-height: 360px;
     width: 360px;    border-radius: 50%;
     font-size: 2em;
     font-weight: 800;
@@ -38,8 +38,7 @@ button:hover {
 }
 
 #question {
-    width: 400px;
-    height: 80px;
+    min-height: 40px;
 }
 
 #message-background {
